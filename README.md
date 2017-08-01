@@ -34,11 +34,11 @@ The following Views and menus are available on the backend.
 
 ## Methods (APIs ?)
 ```
-setHierarchy(userid, mgr_id, context, context_id)
+setHierarchy($userid, $mgr_id, $context, $context_id)
 
-getHierarchyTree(userid, context, context_id, level)
+getHierarchyTree($userid, $context, $context_id, $level)
 
-getManagers(userid, context, context_idlevel)
+getManagers($userid, $context, $context_idlevel)
 ```
 
 ## Future Upgrades
